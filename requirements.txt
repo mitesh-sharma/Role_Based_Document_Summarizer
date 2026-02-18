@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+sentence-transformers
+chromadb
+langchain            # optional (helps later)
+python-dotenv
+loguru
+pytest
