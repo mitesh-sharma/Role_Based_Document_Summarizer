@@ -1,4 +1,4 @@
-The organization has initiated a nine-month program to modernize its legacy payment processing platform, which currently handles over 2 million transactions daily. The existing monolithic architecture has resulted in scaling limitations, delayed feature rollouts, inconsistent testing cycles, and periodic outages during peak transaction volumes.
+The MITESH organization has initiated a nine-month program to modernize its legacy payment processing platform, which currently handles over 2 million transactions daily. The existing monolithic architecture has resulted in scaling limitations, delayed feature rollouts, inconsistent testing cycles, and periodic outages during peak transaction volumes.
 
 The modernization effort involves decomposing the monolith into microservices, containerizing services using Docker, and orchestrating deployments with Kubernetes. The system will transition to a hybrid cloud environment to improve elasticity and disaster recovery capabilities.
 
