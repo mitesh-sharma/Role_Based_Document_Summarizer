@@ -19,7 +19,4 @@ def retrieve_top_k_chunks(query_embedding: list[float], chunk_embeddings: list[l
     cos_chunk_list.sort(key=lambda x: x[0], reverse=True)
 
     k = min(k, len(cos_chunk_list))
-    return [cos_chunk_list[i][1] for i in range(k)] 
-
-
-
+    return [cos_chunk_list[i][1] for i in range(k)]
